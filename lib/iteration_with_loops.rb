@@ -9,7 +9,7 @@ def join_nested_strings(src)
     index = 0 
     while index < src[row].count do 
       if src[row][index].is_a? String
-        outputString += src[row][index] + " "
+        outputString += "#{src[row][index]} "
       end 
       index += 1 
     end 
