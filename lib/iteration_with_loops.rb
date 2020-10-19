@@ -4,8 +4,11 @@ def join_nested_strings(src)
   
   counter = 0
   row = 0
+  outputString = ""
+  
   while counter < src.count do 
     index = 0 
     while index < src[row].count do 
       if src[row][index].is_a? String
+        outputString += src[row][index]
 end
