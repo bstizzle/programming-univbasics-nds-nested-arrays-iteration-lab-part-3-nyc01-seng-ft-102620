@@ -13,5 +13,7 @@ def join_nested_strings(src)
       end 
       index += 1 
     end 
-   
+    row += 1 
+  end 
+  outputString
 end
