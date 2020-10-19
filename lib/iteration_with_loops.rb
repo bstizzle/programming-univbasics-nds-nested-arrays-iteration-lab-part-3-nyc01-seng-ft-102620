@@ -7,5 +7,5 @@ def join_nested_strings(src)
   while counter < src.count do 
     index = 0 
     while index < src[row].count do 
-      
+      if src[row][index]
 end
